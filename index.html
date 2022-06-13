@@ -5,70 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Viktoria Danilova</title>
+    <link rel="icon" href="assets\img\icon.ico">
+    <title>cv</title>
 </head>
-<body>
-        <header>
-            <div class="header">
-                <img src="imeges\IMG_0525-1111.JPG">
-                <h1>Viktoria Danilova</h1>
-            </div>
-            <hr>
-            <div>
-                <h2>Contacts for communication:</h2>
-                <ul>
+<body class="body">
+    <header>
+        <div class="navigation">
+            <img class="navigation__logo" src="assets\img\rdtukh.png" alt="logo">
+            <nav>
+                <ul class="navigation__list">
+                    <li class="navigation-list__item"><a href="#contacts">Contacts</a></li>
+                    <li class="navigation-list__item"><a href="#aboutme">About me</a></li>
+                    <li class="navigation-list__item"><a href="#myskills">My skills</a></li>
+                    <li class="navigation-list__item"><a href="#codeexample">Code example</a></li>
+                    <li class="navigation-list__item"><a href="#workexperience">Work experience</a></li>
+                    <li class="navigation-list__item"><a href="#education">Education</a></li>
+                    <li class="navigation-list__item"><a href="#english">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container__left">
+            <img class="container-left__image" src="assets\img\IMG_0525-1111.JPG" alt="my foto">
+            <h1 class="container-left__title">Viktoria Danilova</h1>
+            <div id="contacts">
+                <h2 class="container-left__subtitle">Contacts:</h2>
+                <ul class="container-left__list">
                     <li>Phone: +98 94 000 43 40</li>
-                    <li>E-mail: v_danilova@mail.ru</li>
+                    <li>E-mail: <a class="block-list__link" href="mailto:v_kozulya@mail.ru">v_kozulya@mail.ru</a></li>
                     <li>Discord: viktoridanilova</li>
-                    <li>Telegram: +375 29 794 19 13</li>
                 </ul>
             </div>
-            <hr>
-         </header>
-        <main>
-            <div>
-                <h2>Information about me:</h2>
-                <p>
-                I have no education or experience in this field. I’m betting heavily on these courses. I hope they will help me discover a lot of new things and find a new profession. For my part, I will try to do everything as well as possible.
-                </p>
+        </section>
+        <section class="container__right">
+            <div id="aboutme">
+                <h2 class="container-right__subtitle">About me:</h2>
+                <p class="container-right__text">I have no education or experience in this field. I’m betting heavily on these courses. I hope they will help me discover a lot of new things and find a new profession. For my part, I will try to do everything as well as possible.</p>
             </div>
             <hr>
-            <div>
-                <h2>My skills:</h2>
-                <p>Some knowledge of HTML and CSS, Git</p>
-                <p><i>I hope to get all the necessary skills in RS-School :)</i></p>
+            <div id="myskills">
+                <h2 class="container-right__subtitle">My skills:</h2>
+                <p class="container-right__text">Some knowledge of HTML and CSS, Git</p>
+                <p class="container-right__text">I hope to get all the necessary skills in RS-School :)</p>
             </div>
             <hr>
-            <div>
-                <h2>Code example:</h2>
-                <p>
+            <div id="codeexample">
+                <h2 class="container-right__subtitle">Code example:</h2>
+                <p class="container-right__snippet">
                     <code>
                         function multiply(a, b){
                             return a * b
                           }
-                    </code>                
-                </p>
+                    </code>
+                </p>     
             </div>
             <hr>
-            <div>
-                <h2>Work experience:</h2>
-                <p>No work experience yet</p>
+            <div id="workexperience">
+                <h2 class="container-right__subtitle">Work experience:</h2>
+                <p class="container-right__text">No work experience yet</p>
             </div>
             <hr>
-            <div>
-                <h2>Education:</h2>
-                <ol>
-                    <li>Belarusian National Technical University</li>
-                    <li>HTML and CSS in HTML Academy</li>
+            <div id="education">
+                <h2 class="container-right__subtitle">Education:</h2>
+                <ol class="container-right__list">
+                    <li>Minsk State Trade College, merchandiser 2011-2013</li>
+                    <li>Belarusian National Technical University, engineer 2014-2019</li>
+                    <li>HTML and CSS in HTML Academy 2022</li>
                 </ol>
             </div>
             <hr>
-            <div>
-                <h2>English:</h2>
-                <p>A-2, I go to a tutor to improve.</p>
+            <div id="english">
+                <h2 class="container-right__subtitle">English:</h2>
+                <p class="container-right__text">A-2, I go to a tutor to improve.</p>
             </div>
-       
-        </main>
-        
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <a class="footer__logo" href="https://rs.school/js-stage0/"><img src="assets\img\rs_school_js.svg" width="90" height="50" alt="logo RS-School"></a>
+            <span class="footer__text">Viktoria Danilova, June 2022</span>
+            <a class="footer__link" href="https://github.com/rolling-scopes-school/viktoridanilova-JSFEPRESCHOOL2022Q2"><img src="assets\img\i75_ArticleImage_23542.jpg" width="90" height="50" alt="my github"></a>
+        </div>
+    </footer> 
 </body>
 </html>

@@ -5,6 +5,11 @@
      src: url("assets\fonts\Joan\Joan-Regular.ttf");
    }
 
+   html {
+    scroll-behavior: smooth; 
+    
+  }
+
    .body {
        display: flex;
        justify-content: center;
